@@ -1,0 +1,3 @@
+Tip:
+JSP's that must be populated by actions can be placed under /WEB-INF so they aren't directly
+accessible to users.

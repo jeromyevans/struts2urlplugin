@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<!-- See the ../README.TXT file for usage. -->
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
+
+    <!-- ============================== -->
+    <!-- Append messages to the console -->
+    <!-- ============================== -->
+
+    <appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+        <param name="Target" value="System.out"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{ISO8601} %-5p [%t] [%c{1}] %m%n"/>
+        </layout>
+    </appender>
+
+     <!-- ================ -->
+    <!-- Limit categories -->
+    <!-- ================ -->
+
+    <category name="com.blueskyminds.struts2.urlplugin">
+        <priority value="debug"/>
+    </category>
+
+    <category name="com.blueskyminds.struts2.urlplugin.matcher">
+        <priority value="debug"/>
+    </category>
+
+    <category name="com.blueskyminds.struts2.urlplugin.matcher.uri">
+        <priority value="debug"/>
+    </category>
+
+    <category name="com.blueskyminds.struts2.urlplugin.matcher.action">
+        <priority value="debug"/>
+    </category>
+
+    <!-- ======================= -->
+    <!-- Setup the Root category -->
+    <!-- ======================= -->
+
+    <root>
+      <priority value="error"/>
+      <appender-ref ref="CONSOLE"/>
+    </root>
+
+</log4j:configuration>

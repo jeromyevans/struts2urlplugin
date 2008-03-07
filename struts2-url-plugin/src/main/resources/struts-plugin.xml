@@ -1,0 +1,38 @@
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+  <!-- Define a RequestFilter than accepts requests that contain the specified pattern -->
+  <bean type="com.blueskyminds.struts2.urlplugin.filter.RequestFilter" name="regexFilter" class="com.blueskyminds.struts2.urlplugin.filter.PatternFilter"/>
+
+  <!-- Define the URI and ACction matches -->
+  <bean type="com.blueskyminds.struts2.urlplugin.matcher.uri.URIMatcher" name="regex" class="com.blueskyminds.struts2.urlplugin.matcher.uri.regex.RegExURIMatcher"/>
+  <bean type="com.blueskyminds.struts2.urlplugin.matcher.uri.URIMatcher" name="keyword" class="com.blueskyminds.struts2.urlplugin.matcher.uri.keyword.KeywordURIMatcher"/>
+  <bean type="com.blueskyminds.struts2.urlplugin.matcher.action.ActionMatcher" name="defaultActionMatcher" class="com.blueskyminds.struts2.urlplugin.matcher.action.DefaultActionMatcher"/>
+
+  <!--
+  Setup the ActionNameMatcher and NamespaceMatcher beans that will be found by the ContainerMatcherProvider.
+   They are referenced by name directly from the ActionSelector configuration
+   -->
+  <bean type="com.blueskyminds.struts2.urlplugin.matcher.action.name.ActionNameMatcher" name="plainText" class="com.blueskyminds.struts2.urlplugin.matcher.action.name.PlainTextActionNameMatcher"/>
+  <bean type="com.blueskyminds.struts2.urlplugin.matcher.action.name.ActionNameMatcher" name="any" class="com.blueskyminds.struts2.urlplugin.matcher.action.name.AnyActionMatcher"/>
+  <bean type="com.blueskyminds.struts2.urlplugin.matcher.action.namespace.NamespaceMatcher" name="plainText" class="com.blueskyminds.struts2.urlplugin.matcher.action.namespace.PlainTextNamespaceMatcher"/>
+  <bean type="com.blueskyminds.struts2.urlplugin.matcher.action.namespace.NamespaceMatcher" name="wildcard" class="com.blueskyminds.struts2.urlplugin.matcher.action.namespace.WildcardNamespaceMatcher"/>
+  <bean type="com.blueskyminds.struts2.urlplugin.matcher.action.namespace.NamespaceMatcher" name="namedVariable" class="com.blueskyminds.struts2.urlplugin.matcher.action.namespace.NamedVariableNamespaceMatcher"/>
+
+  <!-- Define the URLPatternActionMapper -->
+  <bean type="org.apache.struts2.dispatcher.mapper.ActionMapper" name="urlPatternMapper" class="com.blueskyminds.struts2.urlplugin.URLPatternActionMapper"/>
+
+  <!-- Enable the digester-based configuration for the URLPatternActionMapper -->
+  <bean type="com.blueskyminds.struts2.urlplugin.configuration.ActionMapConfiguration" name="defaultXMLConfiguration" class="com.blueskyminds.struts2.urlplugin.configuration.digester.XMLActionMapConfiguration"/>
+
+  <!-- The following constants control which bean instances are used -->
+  <constant name="struts.urlplugin.actionMapConfiguration" value="defaultXMLConfiguration"/>
+  <constant name="struts.urlplugin.configFile" value="struts-default-urls.xml"/>
+  <constant name="struts.urlplugin.actionMatcher" value="defaultActionMatcher"/>
+
+  <!-- Instruct struts2 to use the URLPatternActionMapper as the ActionMapper -->
+  <constant name="struts.mapper.class" value="urlPatternMapper"/>
+
+</struts>

@@ -1,0 +1,40 @@
+<!DOCTYPE action-mappings PUBLIC "-//Blue Sky Minds//DTD Struts2 URL Plugin Configuration 0.1//EN" "http://www.blueskyminds.com.au/dtd/struts-urls-0.1.dtd">
+
+<!-- Test Configuration for the URLPlugn -->
+
+<action-mappings>
+
+  <context>
+    <param name="namespace">(/{0,1}.+)</param>
+    <param name="action">([\w|\d|\-]*)</param>
+    <param name="ext">\.action</param>
+  </context>
+
+  <!--
+  Map any URI ending with .action to an action matching the name (regex group #2) and with a package namespace
+  matching the path (regex group #1).
+
+   The namespace and action names are matched using plainText comparison
+   -->
+  <action-map id="test1">
+    <uri-patterns>
+      <uri-pattern method=".*" path="^${namespace}/${action}${ext}$">   <!-- /namespace/example.action -->
+        <param name="path">$1</param>
+        <param name="name">$2</param>
+      </uri-pattern>
+      <uri-pattern method=".*" path="^/{0,1}${action}${ext}$">  <!-- /example.action | example.action -->
+        <param name="path">/</param>
+        <param name="name">$1</param>
+      </uri-pattern>
+    </uri-patterns>
+    <action-selectors>
+      <action namespace="${path}" name="${name}" method="execute">
+        <param name="example">${path}</param>
+      </action>
+      <action namespace="test" name="${name}" method="execute">
+        <param name="example">${path}</param>
+      </action>
+    </action-selectors>
+  </action-map>
+
+</action-mappings>

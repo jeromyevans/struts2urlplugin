@@ -1,0 +1,24 @@
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+  <constant name="" value=""/>
+  
+  <package name="example" extends="struts-default" namespace="/">
+
+    <action name="example" class="com.blueskyminds.struts2.urlplugin.apps.ExampleAction">
+      <result name="success">/WEB-INF/results/example.jsp</result>
+    </action>
+
+  </package>
+
+  <package name="example2" extends="struts-default" namespace="/example2">
+
+    <action name="example2" class="com.blueskyminds.struts2.urlplugin.apps.Example2Action">
+      <result name="success">/WEB-INF/results/example.jsp</result>
+    </action>
+
+  </package>
+
+</struts>

@@ -1,0 +1,19 @@
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+  <constant name="struts.urlplugin.configFile" value="struts-defaultIndex-urls.xml"/>
+  <package name="example" extends="struts-default" namespace="/examples">
+
+    <action name="index" class="com.blueskyminds.struts2.urlplugin.apps.IndexAction">
+      <result name="success">/WEB-INF/results/exampleIndex.jsp</result>
+    </action>
+
+    <action name="actualExample" class="com.blueskyminds.struts2.urlplugin.apps.Example2Action">
+      <result name="success">/WEB-INF/results/example.jsp</result>
+    </action>
+    
+  </package>
+
+</struts>

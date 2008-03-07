@@ -1,0 +1,40 @@
+<!ELEMENT action-mappings (context?, filter?, action-map*)>
+
+<!ELEMENT filter (param*)>
+<!ATTLIST filter
+    name CDATA #IMPLIED
+>
+
+<!ELEMENT context (param*)>
+
+<!ELEMENT action-map (uri-patterns,action-selectors)>
+<!ATTLIST action-map
+    id ID #REQUIRED
+>
+
+<!ELEMENT uri-patterns (uri-pattern*)>
+
+<!ELEMENT uri-pattern (param*)>
+<!ATTLIST uri-pattern
+    id ID #IMPLIED
+    type CDATA "regex"
+    method CDATA #IMPLIED
+    path CDATA #IMPLIED
+>
+
+<!ELEMENT action-selectors (action*)>
+
+<!ELEMENT action (param*)>
+<!ATTLIST action
+    id ID #IMPLIED
+    namespaceMatcher CDATA "plainText"
+    namespace CDATA #IMPLIED
+    actionMatcher CDATA "plainText"
+    name CDATA #IMPLIED
+    method CDATA #IMPLIED
+>
+
+<!ELEMENT param (#PCDATA)>
+<!ATTLIST param
+    name CDATA #REQUIRED
+>

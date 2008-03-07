@@ -1,0 +1,33 @@
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+  <constant name="struts.urlplugin.configFile" value="struts-namespace-urls.xml"/>
+
+  <package name="users" extends="struts-default" namespace="/{userId}">
+
+    <action name="user" class="com.blueskyminds.struts2.urlplugin.apps.UserAction">
+      <result name="success">/WEB-INF/results/userDetails.jsp</result>
+    </action>
+
+  </package>
+
+  <!-- Setup an index action at /examples/ -->
+  <package name="indexExample" extends="struts-default" namespace="/examples">
+
+    <action name="index" class="com.blueskyminds.struts2.urlplugin.apps.IndexAction">
+      <result name="success">/WEB-INF/results/exampleIndex.jsp</result>
+    </action>
+
+  </package>
+
+  <!-- Another example wiht name in the path -->
+  <package name="namespaceIndexExample" extends="struts-default" namespace="/examples/{name}">
+
+    <action name="index" class="com.blueskyminds.struts2.urlplugin.apps.ExampleAction">
+      <result name="success">/WEB-INF/results/example.jsp</result>
+    </action>           
+
+  </package>
+
+</struts>

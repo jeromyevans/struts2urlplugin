@@ -1,0 +1,164 @@
+<!DOCTYPE action-mappings PUBLIC "-//Blue Sky Minds//DTD Struts2 URL Plugin Configuration 0.1//EN" "http://www.blueskyminds.com.au/dtd/struts-urls-0.1.dtd">
+
+<action-mappings>
+
+  <!-- todo: this is incomplete -->
+  
+  <!--
+    Add some patterns to the context so they can be reused.
+    This makes the regex a little more human-readable
+   -->
+  <context>
+    <param name="namespace">(/{0,1}.+)</param>
+    <param name="action">([\w|\d|\-]*)</param>
+    <param name="ext">((\.(action|json|xhtml)){0,1})</param>
+  </context>
+
+  <!--
+   Define a global filter so the ActionMapper will only process urls matching this pattern
+   This ensures the ActionMapper doesn't waste cycles examining requests for unrelated resources
+  -->
+  <filter name="regexFilter">
+    <param name="pattern">\.(action|json|xhtml)|^[^\.]*$</param>
+  </filter>
+
+  <!--
+  Map any URI with any extension to an action matching the name (regex group #2) and with a package namespace
+  matching the path (regex group #1).
+
+   The namespace and action names are matched first using plainText comparison, then using the NamedVariable
+   pattern matcher
+   -->
+  <action-map id="rest-editNew">
+    <uri-patterns>
+      <uri-pattern method="GET" path="^(.+)/${action}/new${ext}$">   <!-- /namespace/action/new[ext] -->
+        <param name="path">$1</param>
+        <param name="name">$2</param>
+      </uri-pattern>
+      <uri-pattern method="GET" path="^(.+)/${action}/new${ext}$">   <!-- /namespace/action/new[ext] -->
+        <param name="path">$1</param>
+        <param name="name">$2</param>
+      </uri-pattern>
+      <uri-pattern method="GET" path="^(.+)/${action}${ext};new$">   <!-- /namespace/action[ext];new -->
+        <param name="path">$1</param>
+        <param name="name">$2</param>
+      </uri-pattern>
+      <uri-pattern method="GET" path="^/{0,1}${action}/new${ext}$">  <!-- /action/new[ext] | action/new[ext] -->
+        <param name="path">/</param>
+        <param name="name">$1</param>
+      </uri-pattern>
+      <uri-pattern method="GET" path="^/{0,1}${action}${ext};new$">  <!-- /action[ext];new | action[ext];new -->
+        <param name="path">/</param>
+        <param name="name">$1</param>
+      </uri-pattern>
+    </uri-patterns>
+    <action-selectors>
+      <action namespace="${path}" name="${name}" method="editNew"/>
+      <action namespaceMatcher="namedVariable" namespace="${path}" actionMatcher="plainText" name="${name}" method="editNew"/>
+    </action-selectors>
+  </action-map>
+
+   <!--
+    Map to an action called index where the URL ends with a / and the HTTP method is POST
+   -->
+  <action-map id="rest-new">
+    <uri-patterns>
+      <uri-pattern method="POST" path="^(.+)/${action}/$">  <!-- namespace/action/ -->
+        <param name="path">$1</param>
+        <param name="name">$2</param>
+      </uri-pattern>
+      <uri-pattern method="POST" path="^(.+)/${action}${ext}$">  <!-- namespace/action[ext] -->
+        <param name="path">$1</param>
+        <param name="name">$2</param>
+      </uri-pattern>
+      <uri-pattern method="POST" path="^/{0,1}${action}/$"> <!-- /action/ | action/  -->
+        <param name="path">/</param>
+        <param name="name">$1</param>
+      </uri-pattern>
+      <uri-pattern method="POST" path="^/{0,1}${action}${ext}"> <!-- /action[ext] | action[ext]  -->
+        <param name="path">/</param>
+        <param name="name">$1</param>
+      </uri-pattern>
+    </uri-patterns>
+    <action-selectors>
+      <action namespace="${path}" name="${name}" method="create"/>
+      <action namespaceMatcher="namedVariable" namespace="${path}" name="${name}" method="create"/>
+      <!-- the following selector is an extension over the REST plugin.  It allows URLs without an
+       action name (just params in the namespace) to match the first action in the namespace
+       . eg /au/ -> /{code}/ -> CountryController@index() -->
+      <action namespaceMatcher="namedVariable" namespace="${name}" actionMatcher="any" method="create"/>
+    </action-selectors>
+  </action-map>
+
+  <!--
+    Map to an action called index where the URL ends with a / and the HTTP method is GET
+    The namespace and action names are matched first using plainText comparison, then using the NamedVariable
+     pattern matcher
+   -->
+  <action-map id="rest-index">
+    <uri-patterns>
+      <!--<uri-pattern method="GET" path="^(.+)/(.*)/|(/|(\..*))$">  --><!-- namespace/action/ | namespace/action[ext] -->
+        <!--<param name="path">$1</param>-->
+        <!--<param name="name">$2</param>-->
+      <!--</uri-pattern>-->
+      <uri-pattern method="GET" path="^(.+)/${action}/$">  <!-- namespace/action/ -->
+        <param name="path">$1</param>
+        <param name="name">$2</param>
+      </uri-pattern>
+      <uri-pattern method="GET" path="^(.+)/${action}${ext}$">  <!-- namespace/action[ext] -->
+        <param name="path">$1</param>
+        <param name="name">$2</param>
+      </uri-pattern>
+      <uri-pattern method="GET" path="^/{0,1}${action}/$"> <!-- /action/ | action/  -->
+        <param name="path">/</param>
+        <param name="name">$1</param>
+      </uri-pattern>
+      <uri-pattern method="GET" path="^/{0,1}${action}${ext}"> <!-- /action[ext] | action[ext]  -->
+        <param name="path">/</param>
+        <param name="name">$1</param>
+      </uri-pattern>
+    </uri-patterns>
+    <action-selectors>
+      <action namespace="${path}" name="${name}" method="index"/>
+      <action namespaceMatcher="namedVariable" namespace="${path}" name="${name}" method="index"/>
+      <!-- the following selector is an extension over the REST plugin.  It allows URLs without an
+       action name (just params in the namespace) to match the first action in the namespace
+       . eg /au/ -> /{code}/ -> CountryController@index() -->
+      <action namespaceMatcher="namedVariable" namespace="${name}" actionMatcher="any" method="index"/>
+    </action-selectors>
+  </action-map>
+
+
+
+  <!--
+  Map any URI (extension optional) to action matching the name (regex group #2) and with a package namespace
+  matching the path (regex group #1).
+
+   The namespace and action names are matched first using plainText comparison, then using the NamedVariable
+   pattern matcher
+   -->
+  <action-map id="rest-show">
+    <uri-patterns>
+      <uri-pattern method="GET" path="^(.+)/(.+)/${action}${ext}$">   <!-- /namespace/action/id -->
+        <param name="path">$1</param>
+        <param name="name">$2</param>
+        <param name="id">$3</param>
+      </uri-pattern>
+      <uri-pattern method="GET" path="^/{0,1}(.+)/${action}${ext}$">  <!-- /action/id | action/id -->
+        <param name="path">/</param>
+        <param name="name">$1</param>
+        <param name="id">$2</param>
+      </uri-pattern>
+    </uri-patterns>
+    <action-selectors>
+      <action namespace="${path}" name="${name}" method="show">
+        <param name="id">${id}</param>
+      </action>
+      <action namespaceMatcher="namedVariable" namespace="${path}" actionMatcher="plainText" name="${name}" method="show">
+        <param name="id">${id}</param>
+      </action>
+    </action-selectors>
+  </action-map>
+
+
+</action-mappings>
