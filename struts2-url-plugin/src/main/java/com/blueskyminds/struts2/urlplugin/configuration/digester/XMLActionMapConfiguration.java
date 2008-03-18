@@ -14,6 +14,8 @@ import java.io.IOException;
 import java.net.URL;
 
 import org.apache.commons.digester.Digester;
+import org.apache.commons.logging.LogFactory;
+import org.apache.commons.logging.Log;
 import org.xml.sax.SAXException;
 
 /**
@@ -24,6 +26,8 @@ import org.xml.sax.SAXException;
  * History:
  */
 public class XMLActionMapConfiguration implements ActionMapConfiguration {
+
+    private static final Log LOG = LogFactory.getLog(XMLActionMapConfiguration.class);
 
     private Map<String, String> initialContext;
     private List<ActionMapDefinition> actionMappings;
@@ -93,7 +97,11 @@ public class XMLActionMapConfiguration implements ActionMapConfiguration {
     @Inject("struts.urlplugin.configFile")
     public void setConfiguration(String fileName) {
         InputStream input = ClassLoaderUtil.getResourceAsStream(fileName, XMLActionMapConfiguration.class);
-        readConfiguration(input);
+        if (input != null) {
+            readConfiguration(input);
+        } else {
+            LOG.error("Could not open the Struts2UrlPLugin XML Configuration file specified by struts.urlplugin.configFile="+fileName);
+        }
     }
 
     /**
