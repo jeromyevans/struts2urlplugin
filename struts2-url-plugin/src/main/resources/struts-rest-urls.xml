@@ -75,7 +75,7 @@
         <param name="path">/</param>
         <param name="name">$1</param>
       </uri-pattern>
-      <uri-pattern method="POST" path="^/{0,1}${action}${ext}"> <!-- /action[ext] | action[ext]  -->
+      <uri-pattern method="POST" path="^/{0,1}${action}${ext}$"> <!-- /action[ext] | action[ext]  -->
         <param name="path">/</param>
         <param name="name">$1</param>
       </uri-pattern>
@@ -101,11 +101,11 @@
         <!--<param name="path">$1</param>-->
         <!--<param name="name">$2</param>-->
       <!--</uri-pattern>-->
-      <uri-pattern method="GET" path="^(.+)/${action}/$">  <!-- namespace/action/ -->
+      <uri-pattern method="GET" path="^${namespace}/${action}/$">  <!-- namespace/action/ -->
         <param name="path">$1</param>
         <param name="name">$2</param>
       </uri-pattern>
-      <uri-pattern method="GET" path="^(.+)/${action}${ext}$">  <!-- namespace/action[ext] -->
+      <uri-pattern method="GET" path="^${namespace}/${action}${ext}$">  <!-- namespace/action[ext] -->
         <param name="path">$1</param>
         <param name="name">$2</param>
       </uri-pattern>
@@ -113,7 +113,7 @@
         <param name="path">/</param>
         <param name="name">$1</param>
       </uri-pattern>
-      <uri-pattern method="GET" path="^/{0,1}${action}${ext}"> <!-- /action[ext] | action[ext]  -->
+      <uri-pattern method="GET" path="^/{0,1}${action}${ext}$"> <!-- /action[ext] | action[ext]  -->
         <param name="path">/</param>
         <param name="name">$1</param>
       </uri-pattern>
@@ -139,12 +139,12 @@
    -->
   <action-map id="rest-show">
     <uri-patterns>
-      <uri-pattern method="GET" path="^(.+)/(.+)/${action}${ext}$">   <!-- /namespace/action/id -->
+      <uri-pattern method="GET" path="^(.+)/${action}/${id}${ext}$">   <!-- /namespace/action/id -->
         <param name="path">$1</param>
         <param name="name">$2</param>
         <param name="id">$3</param>
       </uri-pattern>
-      <uri-pattern method="GET" path="^/{0,1}(.+)/${action}${ext}$">  <!-- /action/id | action/id -->
+      <uri-pattern method="GET" path="^/{0,1}${action}/${id}${ext}$">  <!-- /action/id | action/id -->
         <param name="path">/</param>
         <param name="name">$1</param>
         <param name="id">$2</param>

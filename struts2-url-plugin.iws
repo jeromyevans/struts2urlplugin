@@ -16,85 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/resources/log4j.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/main" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin/src/test/java/com/blueskyminds/struts2/urlplugin/matcher/TestDefaultActionMatcher.java" afterPath="$PROJECT_DIR$/struts2-url-plugin/src/test/java/com/blueskyminds/struts2/urlplugin/matcher/TestDefaultActionMatcher.java" />
-      <change type="MOVED" beforePath="D:\Projects\src\blueskyminds\src\struts2-url-plugin\struts20-url-plugin\src\test\java\com\blueskyminds\struts2\urlplugin\configuration\MockConfigurationFactory.java" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/test/java/com/blueskyminds/struts20/urlplugin/configuration/MockConfigurationFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/test/java/com/blueskyminds/struts20/urlplugin/configuration/SampleOriginalActionMapConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/webapp/WEB-INF/results/exampleIndex.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/java/com/blueskyminds/struts2/urlplugin/apps/IndexAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/struts20-example.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/webapp/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/main/resources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/namespace-example/src/main/webapp/WEB-INF/results/exampleIndex.jsp" afterPath="$PROJECT_DIR$/apps/namespace-example/src/main/webapp/WEB-INF/results/exampleIndex.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-rest-urls.xml" afterPath="$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-rest-urls.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin/src/test/java/com/blueskyminds/struts2/urlplugin/TestPatternActionMapper.java" afterPath="$PROJECT_DIR$/struts2-url-plugin/src/test/java/com/blueskyminds/struts2/urlplugin/TestPatternActionMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/namespace-example/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/apps/namespace-example/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin-tests/struts2-url-plugin-tests.iml" afterPath="$PROJECT_DIR$/struts2-url-plugin-tests/struts2-url-plugin-tests.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/test/resources/struts-test1-urls.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/struts20-url-plugin/src/test/java/com/blueskyminds/struts2/urlplugin/configuration" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/rest-example/rest-example.iml" afterPath="$PROJECT_DIR$/apps/rest-example/rest-example.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/urlplugin-apps-parent.iml" afterPath="$PROJECT_DIR$/apps/urlplugin-apps-parent.iml" />
-      <change type="MOVED" beforePath="D:\Projects\src\blueskyminds\src\struts2-url-plugin\struts20-url-plugin\src\test\java\com\blueskyminds\struts2\urlplugin\configuration\Example1Action.java" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/test/java/com/blueskyminds/struts20/urlplugin/configuration/Example1Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/java/com/blueskyminds/struts2/urlplugin/apps/Example2Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/URLPatternActionMapper.java" afterPath="$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/URLPatternActionMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/index-example/index-example.iml" afterPath="$PROJECT_DIR$/apps/index-example/index-example.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts20-url-plugin/struts20-url-plugin.iml" afterPath="$PROJECT_DIR$/struts20-url-plugin/struts20-url-plugin.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/ActionMappingFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-defaultIndex-urls.xml" afterPath="$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-defaultIndex-urls.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin.iws" afterPath="$PROJECT_DIR$/struts2-url-plugin.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default-example/pom.xml" afterPath="$PROJECT_DIR$/apps/default-example/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-anyExt-urls.xml" afterPath="$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-anyExt-urls.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/struts20-url-plugin/src/test/java/com/blueskyminds/struts2/urlplugin" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default-example/default-example.iml" afterPath="$PROJECT_DIR$/apps/default-example/default-example.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/java/com/blueskyminds/struts2/urlplugin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/resources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/rest-example/pom.xml" afterPath="$PROJECT_DIR$/apps/rest-example/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/webapp/WEB-INF/results/example.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-urls-0.1.dtd" afterPath="$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-urls-0.1.dtd" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/struts20-url-plugin/src/test/java/com/blueskyminds/struts2" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin-parent.iml" afterPath="$PROJECT_DIR$/struts2-url-plugin-parent.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin.ipr" afterPath="$PROJECT_DIR$/struts2-url-plugin.ipr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/webapp/WEB-INF" />
-      <change type="MOVED" beforePath="D:\Projects\src\blueskyminds\src\struts2-url-plugin\apps\namespace-example\src\main\webapp\WEB-INF\results\country.jsp" afterPath="$PROJECT_DIR$/apps/namespace-example/src/main/webapp/WEB-INF/results/userDetails.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/java/com" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/test/java/com/blueskyminds/struts20/urlplugin/configuration" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/namespace-example/src/main/webapp/WEB-INF/results/example.jsp" afterPath="$PROJECT_DIR$/apps/namespace-example/src/main/webapp/WEB-INF/results/example.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/test/java/com/blueskyminds/struts20/urlplugin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin/struts2-url-plugin.iml" afterPath="$PROJECT_DIR$/struts2-url-plugin/struts2-url-plugin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/namespace-example/namespace-example.iml" afterPath="$PROJECT_DIR$/apps/namespace-example/namespace-example.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-namespace-urls.xml" afterPath="$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-namespace-urls.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin/pom.xml" afterPath="$PROJECT_DIR$/struts2-url-plugin/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/java/com/blueskyminds/struts2/urlplugin/apps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/namespace-example/pom.xml" afterPath="$PROJECT_DIR$/apps/namespace-example/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/pom.xml" afterPath="$PROJECT_DIR$/apps/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/main/java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/resources/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts20-url-plugin/pom.xml" afterPath="$PROJECT_DIR$/struts20-url-plugin/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/index-example/pom.xml" afterPath="$PROJECT_DIR$/apps/index-example/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/webapp/WEB-INF/results" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin/src/test/java/com/blueskyminds/struts2/urlplugin/TestPatternActionMapper3.java" afterPath="$PROJECT_DIR$/struts2-url-plugin/src/test/java/com/blueskyminds/struts2/urlplugin/TestPatternActionMapper3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/test/resources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/java/com/blueskyminds/struts2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/test/resources/log4j.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/namespace-example/src/main/webapp/theme.css" afterPath="$PROJECT_DIR$/apps/namespace-example/src/main/webapp/theme.css" />
-      <change type="MOVED" beforePath="D:\Projects\src\blueskyminds\src\struts2-url-plugin\struts20-url-plugin\src\test\java\com\blueskyminds\struts2\urlplugin\configuration\Example2Action.java" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/test/java/com/blueskyminds/struts20/urlplugin/configuration/Example2Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/webapp/WEB-INF/results/about.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/java/com/blueskyminds" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/test/java/com/blueskyminds/struts20/urlplugin/configuration/MockMatcherProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/test/java/com/blueskyminds/struts20" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example" />
-      <change type="MOVED" beforePath="D:\Projects\src\blueskyminds\src\struts2-url-plugin\apps\namespace-example\src\main\java\com\blueskyminds\struts2\urlplugin\apps\CountryAction.java" afterPath="$PROJECT_DIR$/apps/namespace-example/src/main/java/com/blueskyminds/struts2/urlplugin/apps/UserAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts20-url-plugin/src/test/java/com/blueskyminds/struts20/urlplugin/configuration/TestPatternActionMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/struts20-example/src/main/webapp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/namespace-example/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/apps/namespace-example/src/main/resources/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-rest-urls.xml" afterPath="$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-rest-urls.xml" />
     </list>
     <ignored path="struts2-url-plugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -198,46 +121,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="log4j.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts20-url-plugin/src/test/resources/log4j.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="struts-plugin.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-plugin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="23" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.3445946">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="struts-rest-urls.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="struts-rest-urls.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-rest-urls.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="2" selection-start="215" selection-end="215" vertical-scroll-proportion="0.11486486">
+            <state line="144" column="68" selection-start="6460" selection-end="6460" vertical-scroll-proportion="1.1840324">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/struts20-example/src/main/webapp/index.jsp">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/rest-example/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="45" selection-start="214" selection-end="214" vertical-scroll-proportion="0.1576159">
+            <state line="14" column="31" selection-start="494" selection-end="494" vertical-scroll-proportion="0.33333334">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdersController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/rest-example/src/main/java/com/blueskyminds/struts2/urlplugin/apps/OrdersController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="38" selection-start="1049" selection-end="1118" vertical-scroll-proportion="0.022368422">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/struts20-example/src/main/resources/struts.xml">
+      <file leaf-file-name="orders-index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/rest-example/src/main/webapp/orders-index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="17" selection-start="496" selection-end="496" vertical-scroll-proportion="0.22516556">
+            <state line="5" column="34" selection-start="169" selection-end="169" vertical-scroll-proportion="0.1127321">
               <folding />
             </state>
           </provider>
@@ -246,7 +169,7 @@
       <file leaf-file-name="URLPatternActionMapper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/URLPatternActionMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="180" column="0" selection-start="8110" selection-end="8110" vertical-scroll-proportion="0.20630749">
+            <state line="180" column="0" selection-start="8110" selection-end="8110" vertical-scroll-proportion="0.022368422">
               <folding />
             </state>
           </provider>
@@ -255,7 +178,7 @@
       <file leaf-file-name="DefaultActionMatcher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/DefaultActionMatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="26" selection-start="3463" selection-end="3463" vertical-scroll-proportion="0.4743758">
+            <state line="75" column="26" selection-start="3463" selection-end="3463" vertical-scroll-proportion="0.022368422">
               <folding />
             </state>
           </provider>
@@ -264,7 +187,7 @@
       <file leaf-file-name="DefaultConfiguration.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../../m2/repository/com/opensymphony/xwork/2.1.1-SNAPSHOT/xwork-2.1.1-SNAPSHOT-sources.jar!/com/opensymphony/xwork2/config/impl/DefaultConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="0" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.20630749">
+            <state line="74" column="0" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.022368422">
               <folding />
             </state>
           </provider>
@@ -273,7 +196,7 @@
       <file leaf-file-name="struts-defaultIndex-urls.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-defaultIndex-urls.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="28" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.7702703">
+            <state line="54" column="28" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.8240866">
               <folding />
             </state>
           </provider>
@@ -282,7 +205,7 @@
       <file leaf-file-name="struts-default-urls.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-default-urls.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="50" selection-start="837" selection-end="837" vertical-scroll-proportion="0.31216216">
+            <state line="22" column="50" selection-start="837" selection-end="837" vertical-scroll-proportion="0.34100136">
               <folding />
             </state>
           </provider>
@@ -291,7 +214,7 @@
       <file leaf-file-name="struts-anyExt-urls.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-anyExt-urls.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="15" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.81621623">
+            <state line="60" column="15" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.8700947">
               <folding />
             </state>
           </provider>
@@ -300,16 +223,25 @@
       <file leaf-file-name="struts-namespace-urls.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-namespace-urls.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="51" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.3108108">
+            <state line="41" column="51" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.36400542">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="18" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.37972972">
+            <state line="15" column="72" selection-start="683" selection-end="683" vertical-scroll-proportion="0.023004059">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionNameMatcher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/name/ActionNameMatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="42" selection-start="1170" selection-end="1171" vertical-scroll-proportion="0.49210528">
               <folding />
             </state>
           </provider>
@@ -318,7 +250,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/rest-example/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.7810811">
+            <state line="34" column="0" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.78213805">
               <folding />
             </state>
           </provider>
@@ -327,7 +259,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="51" selection-start="918" selection-end="918" vertical-scroll-proportion="0.5054054">
+            <state line="22" column="51" selection-start="918" selection-end="918" vertical-scroll-proportion="0.023004059">
               <folding />
             </state>
           </provider>
@@ -345,7 +277,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/namespace-example/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="48" selection-start="872" selection-end="872" vertical-scroll-proportion="0.52837837">
+            <state line="23" column="48" selection-start="872" selection-end="872" vertical-scroll-proportion="0.5290934">
               <folding />
             </state>
           </provider>
@@ -354,7 +286,7 @@
       <file leaf-file-name="TestDefaultActionMatcher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/test/java/com/blueskyminds/struts2/urlplugin/matcher/TestDefaultActionMatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="37" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.69250983">
+            <state line="43" column="37" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.69210523">
               <folding />
             </state>
           </provider>
@@ -363,7 +295,7 @@
       <file leaf-file-name="URIMatcher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/uri/URIMatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.15637319">
+            <state line="9" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.15657894">
               <folding />
             </state>
           </provider>
@@ -372,7 +304,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="432" selection-end="432" vertical-scroll-proportion="0.18378378">
+            <state line="8" column="20" selection-start="432" selection-end="432" vertical-scroll-proportion="0.18403247">
               <folding />
             </state>
           </provider>
@@ -451,20 +383,6 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="urlplugin-apps-parent" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2-url-plugin\apps" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="struts2-url-plugin" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
           <option name="myItemId" value="struts20-url-plugin" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
@@ -491,20 +409,6 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="struts2-url-plugin-parent" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2-url-plugin" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="struts2-url-plugin" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
           <option name="myItemId" value="struts2-url-plugin" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
@@ -519,7 +423,7 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2-url-plugin\struts2-url-plugin" />
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\struts2-url-plugin" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -533,11 +437,199 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2-url-plugin\struts2-url-plugin" />
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\struts2-url-plugin" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2-url-plugin\struts2-url-plugin\src" />
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\struts2-url-plugin\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="struts2-url-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="struts2-url-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\struts2-url-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\struts2-url-plugin\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\struts2-url-plugin\src\main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\struts2-url-plugin\src\main\resources" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="struts2-url-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="struts2-url-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\struts2-url-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\struts2-url-plugin\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\struts2-url-plugin\src\main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\struts2-url-plugin\src\main\java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\struts2-url-plugin\src\main\java\com\blueskyminds\struts2\urlplugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="struts2-url-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="rest-example" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="struts2-url-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="rest-example" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="struts2-url-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="rest-example" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example\src\main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example\src\main\webapp" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="struts2-url-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="rest-example" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example\src\main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example\src\main\webapp" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example\src\main\webapp\WEB-INF" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="struts2-url-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="rest-example" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example\src\main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="struts2-url-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="rest-example" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example\src\main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example\src\main\java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2urlplugin\apps\rest-example\src\main\java\com\blueskyminds\struts2\urlplugin\apps" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -549,20 +641,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="namespace-example" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="struts2-url-plugin" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="namespace-example" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:D:\Projects\src\blueskyminds\src\struts2-url-plugin\apps\namespace-example" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
     </subPane>
@@ -585,8 +663,8 @@
     </navigator>
   </component>
   <component name="PropertiesComponent">
-    <property name="TEMP_MODULE_EXPLODED_DIR_FOR_urlplugin-apps-parent/web/Web" value="C:\Documents and Settings\Jeromy\Local Settings\Temp\webExplodedDir58147tmp" />
     <property name="TEMP_MODULE_EXPLODED_DIR_FOR_urlplugin-apps-parent/web/Web2" value="C:\Documents and Settings\Jeromy\Local Settings\Temp\webExplodedDir33919tmp" />
+    <property name="TEMP_MODULE_EXPLODED_DIR_FOR_urlplugin-apps-parent/web/Web" value="C:\Documents and Settings\Jeromy\Local Settings\Temp\webExplodedDir58147tmp" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="RunManagerConfig.showSettingsBeforeRunnig" value="true" />
@@ -645,39 +723,83 @@
         <option name="Make" value="true" />
       </method>
     </tempConfiguration>
-    <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG" enabled="false" merge="false">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="ADDITIONAL_CLASS_PATH" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="wholeProject" />
       </option>
+      <option name="PROPERTIES_FILE" />
       <envs />
+      <properties />
+      <listeners />
       <method>
         <option name="Make" value="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="C:/Program Files/JetBrains/IntelliJ IDEA 6.0/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myCoreSettings">
+          <MavenCoreSettings>
+            <option name="checksumPolicy" value="fail" />
+            <option name="failureBehavior" value="fail-fast" />
+            <option name="localRepository" value="" />
+            <option name="mavenHome" value="" />
+            <option name="mavenSettingsFile" value="" />
+            <option name="nonRecursive" value="false" />
+            <option name="pluginUpdatePolicy" value="false" />
+            <option name="produceExceptionErrorMessages" value="false" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="workOffline" value="false" />
+          </MavenCoreSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="jreName" value="1.5" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="runMavenInBackground" value="false" />
+            <option name="skipTests" value="false" />
+            <option name="syncAfterBuild" value="true" />
+            <option name="useMavenEmbedder" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomPath" value="" />
+            <option name="profiles">
+              <set />
+            </option>
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
       <option name="WORKING_DIRECTORY" />
@@ -724,83 +846,39 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG" enabled="false" merge="false">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="C:/Program Files/JetBrains/IntelliJ IDEA 6.0/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="ADDITIONAL_CLASS_PATH" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="wholeProject" />
       </option>
-      <option name="PROPERTIES_FILE" />
       <envs />
-      <properties />
-      <listeners />
       <method>
         <option name="Make" value="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myCoreSettings">
-          <MavenCoreSettings>
-            <option name="checksumPolicy" value="fail" />
-            <option name="failureBehavior" value="fail-fast" />
-            <option name="localRepository" value="" />
-            <option name="mavenHome" value="" />
-            <option name="mavenSettingsFile" value="" />
-            <option name="nonRecursive" value="false" />
-            <option name="pluginUpdatePolicy" value="false" />
-            <option name="produceExceptionErrorMessages" value="false" />
-            <option name="usePluginRegistry" value="false" />
-            <option name="workOffline" value="false" />
-          </MavenCoreSettings>
-        </option>
-        <option name="myRunnerSettings">
-          <MavenRunnerSettings>
-            <option name="jreName" value="1.5" />
-            <option name="mavenProperties">
-              <map />
-            </option>
-            <option name="runMavenInBackground" value="false" />
-            <option name="skipTests" value="false" />
-            <option name="syncAfterBuild" value="true" />
-            <option name="useMavenEmbedder" value="false" />
-            <option name="vmOptions" value="" />
-          </MavenRunnerSettings>
-        </option>
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="pomPath" value="" />
-            <option name="profiles">
-              <set />
-            </option>
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
     </configuration>
     <configuration default="false" name="struts20-example" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 5">
       <option name="WORKING_DIRECTORY" />
@@ -875,11 +953,11 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestPatternActionMapper" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.default-example" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index-example" />
-      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.namespace-example" />
-      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.rest-example" />
-      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.struts20-example" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.struts20-example" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.default-example" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.index-example" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.namespace-example" />
+      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.rest-example" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -932,7 +1010,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="93" y="10" width="1470" height="986" extended-state="0" />
+    <frame x="1757" y="6" width="1352" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
@@ -940,6 +1018,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35423926" order="1" />
+      <window_info id="Profile" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21602787" order="3" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
@@ -948,9 +1027,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
-      <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1491166" order="3" />
+      <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15959908" order="3" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26077738" order="0" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22976099" order="0" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
@@ -973,7 +1052,7 @@
     <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the filter definition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -987,6 +1066,7 @@
     <MESSAGE value="added getMappingFromAction" />
     <MESSAGE value="added default getUriFromActionMapping.  it sucks" />
     <MESSAGE value="Added the filter definition" />
+    <MESSAGE value="Correct" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1027,114 +1107,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/namespace-example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="48" selection-start="872" selection-end="872" vertical-scroll-proportion="0.52837837">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="51" selection-start="918" selection-end="918" vertical-scroll-proportion="0.5054054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/struts20-example/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="45" selection-start="214" selection-end="214" vertical-scroll-proportion="0.1576159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts20-url-plugin/src/test/resources/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.3445946">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-default-urls.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="50" selection-start="837" selection-end="837" vertical-scroll-proportion="0.31216216">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../m2/repository/com/opensymphony/xwork/2.1.1-SNAPSHOT/xwork-2.1.1-SNAPSHOT-sources.jar!/com/opensymphony/xwork2/config/impl/DefaultConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.20630749">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/DefaultActionMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="26" selection-start="3463" selection-end="3463" vertical-scroll-proportion="0.4743758">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/URLPatternActionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="0" selection-start="8110" selection-end="8110" vertical-scroll-proportion="0.20630749">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/struts20-example/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="496" selection-end="496" vertical-scroll-proportion="0.22516556">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-anyExt-urls.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="15" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.81621623">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-rest-urls.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="2" selection-start="215" selection-end="215" vertical-scroll-proportion="0.11486486">
+        <state line="74" column="0" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.022368422">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-defaultIndex-urls.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="28" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.7702703">
+        <state line="54" column="28" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.8240866">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-default-urls.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="50" selection-start="837" selection-end="837" vertical-scroll-proportion="0.34100136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-anyExt-urls.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="15" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.8700947">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-namespace-urls.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="51" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.3108108">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="432" selection-end="432" vertical-scroll-proportion="0.18378378">
+        <state line="41" column="51" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.36400542">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="18" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.37972972">
+        <state line="15" column="72" selection-start="683" selection-end="683" vertical-scroll-proportion="0.023004059">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/name/ActionNameMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="42" selection-start="1170" selection-end="1171" vertical-scroll-proportion="0.49210528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/rest-example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.78213805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="51" selection-start="918" selection-end="918" vertical-scroll-proportion="0.023004059">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/namespace-example/namespace-example.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/namespace-example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="48" selection-start="872" selection-end="872" vertical-scroll-proportion="0.5290934">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/test/java/com/blueskyminds/struts2/urlplugin/matcher/TestDefaultActionMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="37" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.69210523">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/uri/URIMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.15657894">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="432" selection-end="432" vertical-scroll-proportion="0.18403247">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/rest-example/src/main/webapp/orders-index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="34" selection-start="169" selection-end="169" vertical-scroll-proportion="0.1127321">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-rest-urls.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="68" selection-start="6460" selection-end="6460" vertical-scroll-proportion="1.1840324">
           <folding />
         </state>
       </provider>
