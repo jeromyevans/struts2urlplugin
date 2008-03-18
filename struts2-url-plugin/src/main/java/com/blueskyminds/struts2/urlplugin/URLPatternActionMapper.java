@@ -80,7 +80,15 @@ public class URLPatternActionMapper implements ActionMapper {
 
         if ((requestFilter == null) || (requestFilter.accept(httpServletRequest))) {
             String method = httpServletRequest.getMethod();
-            String path = httpServletRequest.getRequestURI();
+            String contextPath = httpServletRequest.getContextPath();
+            String path;
+            if (contextPath.length() > 0) {
+                // strip the context path
+                String fullPath = httpServletRequest.getRequestURI();
+                path = fullPath.substring(fullPath.indexOf(contextPath)+contextPath.length());
+            } else {
+                path = httpServletRequest.getRequestURI();
+            }
             String query = httpServletRequest.getQueryString();
             Configuration configuration = configurationManager.getConfiguration();
 
