@@ -17,6 +17,9 @@
    -->
   <bean type="com.blueskyminds.struts2.urlplugin.matcher.action.name.ActionNameMatcher" name="plainText" class="com.blueskyminds.struts2.urlplugin.matcher.action.name.PlainTextActionNameMatcher"/>
   <bean type="com.blueskyminds.struts2.urlplugin.matcher.action.name.ActionNameMatcher" name="any" class="com.blueskyminds.struts2.urlplugin.matcher.action.name.AnyActionMatcher"/>
+  <bean type="com.blueskyminds.struts2.urlplugin.matcher.action.name.ActionNameMatcher" name="controller" class="com.blueskyminds.struts2.urlplugin.matcher.action.name.ControllerActionNameMatcher"/>
+  <bean type="com.blueskyminds.struts2.urlplugin.matcher.action.name.ActionNameMatcher" name="nonController" class="com.blueskyminds.struts2.urlplugin.matcher.action.name.NonControllerActionNameMatcher"/>
+
   <bean type="com.blueskyminds.struts2.urlplugin.matcher.action.namespace.NamespaceMatcher" name="plainText" class="com.blueskyminds.struts2.urlplugin.matcher.action.namespace.PlainTextNamespaceMatcher"/>
   <bean type="com.blueskyminds.struts2.urlplugin.matcher.action.namespace.NamespaceMatcher" name="wildcard" class="com.blueskyminds.struts2.urlplugin.matcher.action.namespace.WildcardNamespaceMatcher"/>
   <bean type="com.blueskyminds.struts2.urlplugin.matcher.action.namespace.NamespaceMatcher" name="namedVariable" class="com.blueskyminds.struts2.urlplugin.matcher.action.namespace.NamedVariableNamespaceMatcher"/>
