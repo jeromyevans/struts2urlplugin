@@ -50,22 +50,35 @@ public class NamedVariableNamespaceMatcher implements NamespaceMatcher {
      */
     private CompiledPattern compilePattern(String data) {
         StringBuilder regex = new StringBuilder();
+        boolean allowSlashes = false;
         if (data != null && data.length() > 0) {
             List<String> varNames = new ArrayList<String>();
             StringBuilder varName = null;
             for (int x=0; x<data.length(); x++) {
                 char c = data.charAt(x);
                 switch (c) {
-                    case '{' :  varName = new StringBuilder(); break;
-                    case '}' :  varNames.add(varName.toString());
-                                regex.append("([^/]+)");
-                                varName = null;
-                                break;
-                    default  :  if (varName == null) {
-                                    regex.append(c);
-                                } else {
-                                    varName.append(c);
-                                }
+                    case '{':
+                        varName = new StringBuilder();
+                        break;
+                    case '}':
+                        varNames.add(varName.toString());
+                        if (!allowSlashes) {
+                            regex.append("([^/]+)");
+                        } else {
+                            regex.append("(.+)");   // match everything!
+                        }
+                        varName = null;
+                        allowSlashes = false;
+                        break;
+                    case '*':
+                        allowSlashes = true;
+                        break;
+                    default:
+                        if (varName == null) {
+                            regex.append(c);
+                        } else {
+                            varName.append(c);
+                        }
                 }
             }
             return new CompiledPattern(Pattern.compile(regex.toString()), varNames);
