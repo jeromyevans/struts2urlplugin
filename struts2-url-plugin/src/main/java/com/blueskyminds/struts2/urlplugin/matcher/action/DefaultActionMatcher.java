@@ -144,9 +144,14 @@ public class DefaultActionMatcher implements ActionMatcher {
             // and match to the action config...
             actionMapping = actionNameMatcher.match(substituted, actionName, actionConfig, actionSelector, matchContext, packageConfig);
 
+            if ((actionMapping != null) && (actionMapping.getMethod() != null)) {
+                // substitute variables into the method name if any
+                actionMapping.setMethod(substituteVariables(actionMapping.getMethod(), matchContext));
+            }
+
             if (LOG.isDebugEnabled()) {
                 if (actionMapping != null) {
-                    LOG.debug("Matched action:"+actionName+" to pattern "+substituted+" using "+actionSelector.getActionMatcher());
+                    LOG.debug("Matched action:"+actionName+" to pattern "+substituted+" using "+actionSelector.getActionMatcher()+(actionMapping.getMethod() != null ? " (method="+ actionMapping.getMethod()+")" : ""));
                 } else {
                     LOG.debug("No match for action:"+actionName+" against pattern "+substituted+" using "+actionSelector.getActionMatcher());
                 }

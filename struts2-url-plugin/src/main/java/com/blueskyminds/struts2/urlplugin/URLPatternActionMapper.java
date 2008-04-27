@@ -255,7 +255,7 @@ public class URLPatternActionMapper implements ActionMapper {
      * Borrowed from DefaultActionMapper
      * This isn't going to work in every scenario
      *
-     * *** Currently uses a relfective invocation to maintain API compatibility with Struts 2.0
+     * *** Currently uses a reflective invocation to maintain API compatibility with Struts 2.0
      * */
     public String getUriFromActionMapping(ActionMapping mapping) {
         StringBuffer uri = new StringBuffer();
