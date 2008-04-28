@@ -46,6 +46,7 @@ public class URLPatternActionMapper implements ActionMapper {
     private RequestFilter requestFilter;
 
     private static Method extensionMethod = null;
+    private static final String METHOD_PARAM = "_method";
 
     /** Temporary reflective API compatibility with Struts 2.0 */
     static {
@@ -90,8 +91,14 @@ public class URLPatternActionMapper implements ActionMapper {
                 path = httpServletRequest.getRequestURI();
             }
             String query = httpServletRequest.getQueryString();
-            Configuration configuration = configurationManager.getConfiguration();
+                        
+            // check if the http method is overridden by a parameter
+            String methodParam = httpServletRequest.getParameter(METHOD_PARAM);
+            if ((methodParam != null) && (methodParam.length() > 0)) {
+                method = methodParam.toUpperCase();
+            }
 
+            Configuration configuration = configurationManager.getConfiguration();
             ComponentURI uri = new ComponentURI(method, path, query);
 
             return getMapping(uri, configuration);

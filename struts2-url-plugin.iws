@@ -18,7 +18,6 @@
     <list default="true" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin.iws" afterPath="$PROJECT_DIR$/struts2-url-plugin.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/URLPatternActionMapper.java" afterPath="$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/URLPatternActionMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/DefaultActionMatcher.java" afterPath="$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/DefaultActionMatcher.java" />
     </list>
     <ignored path="struts2-url-plugin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,19 +38,6 @@
   <component name="DebuggerManager">
     <line_breakpoints>
       <breakpoint url="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/expression/ExpressionProcessor.java" line="89" class="com.blueskyminds.struts2.urlplugin.expression.ExpressionProcessor" package="com.blueskyminds.struts2.urlplugin.expression">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/URLPatternActionMapper.java" line="80" class="com.blueskyminds.struts2.urlplugin.URLPatternActionMapper" package="com.blueskyminds.struts2.urlplugin">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -109,28 +95,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NamedVariableNamespaceMatcher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/namespace/NamedVariableNamespaceMatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="45" selection-start="2435" selection-end="2435" vertical-scroll-proportion="0.01923077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestNamedVariableNamespaceMatcher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/test/java/com/blueskyminds/struts2/urlplugin/matcher/action/namespace/TestNamedVariableNamespaceMatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="46" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.61153847">
+            <state line="36" column="46" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.59774435">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="URLPatternActionMapper.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="URLPatternActionMapper.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/URLPatternActionMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="182" column="65" selection-start="8089" selection-end="8089" vertical-scroll-proportion="0.34901962">
+            <state line="95" column="35" selection-start="3970" selection-end="3970" vertical-scroll-proportion="0.651341">
               <folding />
             </state>
           </provider>
@@ -139,7 +116,7 @@
       <file leaf-file-name="ActionMatcher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/ActionMatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.25">
+            <state line="16" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.24436091">
               <folding />
             </state>
           </provider>
@@ -148,7 +125,7 @@
       <file leaf-file-name="DefaultActionMatcher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/DefaultActionMatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="17" selection-start="7442" selection-end="7442" vertical-scroll-proportion="0.74509805">
+            <state line="156" column="17" selection-start="7442" selection-end="7442" vertical-scroll-proportion="0.24521072">
               <folding />
             </state>
           </provider>
@@ -157,7 +134,7 @@
       <file leaf-file-name="ActionNameMatcher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/name/ActionNameMatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.43137255">
+            <state line="26" column="0" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.42145595">
               <folding />
             </state>
           </provider>
@@ -166,7 +143,7 @@
       <file leaf-file-name="XMLActionMapConfiguration.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/configuration/digester/XMLActionMapConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="4" selection-start="4650" selection-end="4650" vertical-scroll-proportion="0.034615386">
+            <state line="96" column="4" selection-start="4650" selection-end="4650" vertical-scroll-proportion="0.033834588">
               <folding />
             </state>
           </provider>
@@ -175,16 +152,16 @@
       <file leaf-file-name="struts-plugin.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="178" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.40214476">
+            <state line="20" column="178" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.39267015">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="struts-defaultIndex-urls.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="struts-defaultIndex-urls.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-defaultIndex-urls.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="32" selection-start="1613" selection-end="1613" vertical-scroll-proportion="0.5978552">
+            <state line="35" column="25" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.47240052">
               <folding />
             </state>
           </provider>
@@ -193,7 +170,7 @@
       <file leaf-file-name="PlainTextActionNameMatcher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/name/PlainTextActionNameMatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="60" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.627451">
+            <state line="36" column="60" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.6130268">
               <folding />
             </state>
           </provider>
@@ -434,8 +411,8 @@
     </navigator>
   </component>
   <component name="PropertiesComponent">
-    <property name="TEMP_MODULE_EXPLODED_DIR_FOR_urlplugin-apps-parent/web/Web" value="C:\Documents and Settings\Jeromy\Local Settings\Temp\webExplodedDir58147tmp" />
     <property name="TEMP_MODULE_EXPLODED_DIR_FOR_urlplugin-apps-parent/web/Web2" value="C:\Documents and Settings\Jeromy\Local Settings\Temp\webExplodedDir33919tmp" />
+    <property name="TEMP_MODULE_EXPLODED_DIR_FOR_urlplugin-apps-parent/web/Web" value="C:\Documents and Settings\Jeromy\Local Settings\Temp\webExplodedDir58147tmp" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="RunManagerConfig.showSettingsBeforeRunnig" value="true" />
@@ -506,6 +483,51 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <option name="WORKING_DIRECTORY" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8080" />
+      <option name="LOCAL" value="true" />
+      <option name="OPEN_IN_BROWSER" value="true" />
+      <option name="OPEN_IN_BROWSER_URL" value="/" />
+      <option name="COMMON_VM_ARGUMENTS" value="" />
+      <JAVAEE_FACET FACET_ID="default-example/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
+        <option name="CONTEXT_PATH" value="/" />
+        <option name="DEPLOY" value="false" />
+      </JAVAEE_FACET>
+      <JAVAEE_FACET FACET_ID="index-example/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
+        <option name="CONTEXT_PATH" value="/" />
+        <option name="DEPLOY" value="false" />
+      </JAVAEE_FACET>
+      <JAVAEE_FACET FACET_ID="namespace-example/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
+        <option name="CONTEXT_PATH" value="/" />
+        <option name="DEPLOY" value="false" />
+      </JAVAEE_FACET>
+      <JAVAEE_FACET FACET_ID="rest-example/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
+        <option name="CONTEXT_PATH" value="/" />
+        <option name="DEPLOY" value="false" />
+      </JAVAEE_FACET>
+      <JAVAEE_FACET FACET_ID="struts20-example/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
+        <option name="CONTEXT_PATH" value="/" />
+        <option name="DEPLOY" value="false" />
+      </JAVAEE_FACET>
+      <option name="DEPLOY_TOMCAT_MANAGER" value="false" />
+      <option name="BASE_DIRECTORY_NAME" value="" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG" enabled="false" merge="false">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -531,6 +553,28 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="Make" value="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ADDITIONAL_CLASS_PATH" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
       <method>
         <option name="Make" value="true" />
       </method>
@@ -583,73 +627,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="ADDITIONAL_CLASS_PATH" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <method>
-        <option name="Make" value="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
-      <option name="WORKING_DIRECTORY" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="8080" />
-      <option name="LOCAL" value="true" />
-      <option name="OPEN_IN_BROWSER" value="true" />
-      <option name="OPEN_IN_BROWSER_URL" value="/" />
-      <option name="COMMON_VM_ARGUMENTS" value="" />
-      <JAVAEE_FACET FACET_ID="default-example/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
-        <option name="CONTEXT_PATH" value="/" />
-        <option name="DEPLOY" value="false" />
-      </JAVAEE_FACET>
-      <JAVAEE_FACET FACET_ID="index-example/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
-        <option name="CONTEXT_PATH" value="/" />
-        <option name="DEPLOY" value="false" />
-      </JAVAEE_FACET>
-      <JAVAEE_FACET FACET_ID="namespace-example/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
-        <option name="CONTEXT_PATH" value="/" />
-        <option name="DEPLOY" value="false" />
-      </JAVAEE_FACET>
-      <JAVAEE_FACET FACET_ID="rest-example/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
-        <option name="CONTEXT_PATH" value="/" />
-        <option name="DEPLOY" value="false" />
-      </JAVAEE_FACET>
-      <JAVAEE_FACET FACET_ID="struts20-example/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
-        <option name="CONTEXT_PATH" value="/" />
-        <option name="DEPLOY" value="false" />
-      </JAVAEE_FACET>
-      <option name="DEPLOY_TOMCAT_MANAGER" value="false" />
-      <option name="BASE_DIRECTORY_NAME" value="" />
-      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
     </configuration>
     <configuration default="false" name="struts20-example" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
       <option name="WORKING_DIRECTORY" />
@@ -800,7 +777,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15959908" order="3" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294263" order="0" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22948797" order="0" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
@@ -882,13 +859,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../m2/repository/org/apache/struts/struts2-core/2.1.1-SNAPSHOT/struts2-core-2.1.1-SNAPSHOT.jar!/org/apache/struts2/StrutsConstants.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="162" selection-end="162" vertical-scroll-proportion="0.018796992">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/name/NonControllerActionNameMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="566" selection-end="566" vertical-scroll-proportion="0.1724138">
@@ -931,65 +901,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/configuration/digester/XMLActionMapConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-urls-0.1.dtd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="4" selection-start="4650" selection-end="4650" vertical-scroll-proportion="0.034615386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="178" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.40214476">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/test/java/com/blueskyminds/struts2/urlplugin/matcher/action/namespace/TestNamedVariableNamespaceMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="46" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.61153847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/URLPatternActionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="65" selection-start="8089" selection-end="8089" vertical-scroll-proportion="0.34901962">
+        <state line="36" column="46" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.59774435">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/ActionMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/name/ActionNameMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.43137255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/name/PlainTextActionNameMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="60" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.627451">
+        <state line="16" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.24436091">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/DefaultActionMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="17" selection-start="7442" selection-end="7442" vertical-scroll-proportion="0.74509805">
+        <state line="156" column="17" selection-start="7442" selection-end="7442" vertical-scroll-proportion="0.24521072">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/name/ActionNameMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.42145595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/configuration/digester/XMLActionMapConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="4" selection-start="4650" selection-end="4650" vertical-scroll-proportion="0.033834588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="178" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.39267015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/matcher/action/name/PlainTextActionNameMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="60" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.6130268">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/resources/struts-defaultIndex-urls.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="32" selection-start="1613" selection-end="1613" vertical-scroll-proportion="0.5978552">
+        <state line="35" column="25" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.47240052">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts2-url-plugin/src/main/java/com/blueskyminds/struts2/urlplugin/URLPatternActionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="35" selection-start="3970" selection-end="3970" vertical-scroll-proportion="0.651341">
           <folding />
         </state>
       </provider>
